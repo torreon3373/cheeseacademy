@@ -1,0 +1,286 @@
+.title_box{
+    background: url(../image/mainbg.png);
+    color: yellow;
+    background-size:cover; 
+    background-position: center;
+    height:250px; 
+    color:aliceblue; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title_box h1{
+  font-size:48px ;    
+}
+.title_box p{
+  font-size:36px; 
+}
+
+.about{
+    height:100px;
+    width:24px ;
+    font-size: 10%;
+    display:flex ;
+    align-items:center ;
+    background-color:#ffd61a ;
+    
+}
+.title_menue{
+    font-size:21px; 
+    height:80px;
+    border: solid;
+    border-color:#efefef;
+    background-image:url(../image/header_logo.png);
+}
+
+.text_image{
+    background: url(../image/course_01.jpg);
+    color:violet;
+    background-size:cover; 
+    background-position: center;
+    height:250px; 
+    color:aliceblue; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  
+}
+
+.container{
+    display: flex;
+  }
+
+.about{
+    background-position: center;
+    display: flex;
+    justify-content: center;  
+    align-items: center ;
+}
+body{
+    width:968px; 
+} 
+.text_image_title{
+    background:url(../image/course_02.jpg);
+    height: 250px;
+    display:flex ;
+    align-items: center ;
+    justify-content: center;
+    background-position: center;
+    align-content:center;
+}
+
+.image_text{
+    background:url(../image/course_03.jpg); 
+    height:250px; 
+    display:flex; 
+    align-content: center;
+}
+.text_image_text{
+
+    display:flex; 
+    align-items:center;
+    justify-content:center;
+    background-position:center;
+    align-content:center;
+    width:50%; 
+    height:250px;
+    text-align:right;
+}
+
+.text_image_title{
+    display:flex; 
+    justify-content:center;
+    align-items: center;
+    width:50%
+}
+.text{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    text-align:right;
+}
+
+.text_image{
+    
+   
+   text-align:center;
+    width:50%;
+    justify-content:center;
+    align-items: center;    
+
+}
+
+.text_image_text{
+    text-align: center;
+    width:50%;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.flex{
+    display:flex; 
+    justify-content:space-between ;
+    }
+ .flex>p{
+     width:49%; 
+}
+
+
+.text_image{
+    width:50%;
+}
+.news_image{
+    background:url(../image/news_img.jpg);
+    color:black; 
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height: 100px;
+    font-size:10px;
+    justify-content:space-evenly;
+    flex-direction: column;
+    
+    
+}
+.image_news{
+    height:100px;
+    width:24px ;
+    font-size: 10%;
+    display:flex ;
+    align-items:center ;
+    
+}
+.news_img{
+    width:24%; 
+    height:50%;
+    display: flex;
+    align-items: center;
+    
+    }
+
+.news_img2{
+    width:50%; 
+    height:100%;
+    display:flex; 
+    align-items:center;
+}
+
+.text_about{
+    background:url(../image/about-image.jpg);
+    width:100%; 
+    display: flex;
+    align-items: center;
+}
+
+
+nav{
+    text-align: center;
+}
+nav ul{
+    margin:0; 
+    padding:0; 
+    font-size: 0;
+}
+nav ul li{
+    list-style:none; 
+    display:inline-block; 
+    width: 100px;
+    background-color: wheat;
+    font-size:16px; 
+}
+/* リンク張った部分 */
+nav ul li a{
+    text-decoration:none;
+    color:violet
+}
+nav li:hover{
+    opacity:0.8; 
+}
+#about{
+    text-align: center;
+}
+.image_text{
+    width:50%;
+    display: flex;
+    justify-content:center;
+}
+.image{
+    width:100%;
+}
+.img_box{
+    display: flex;
+    
+
+}
+
+ .title_image{
+     display: flex;
+     flex-flow: row-reverse;
+ }  
+
+.img_text{
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+    width:50%; 
+    text-align: center;
+}
+
+/*「お問合せ」ページここから↓*/ 
+input[type="text"]{
+    width:200px; 
+}
+input[type="email"]{
+    width:300px
+}
+/*「お問合せ」ページはここまで↑*/ 
+.check_lb{
+    display:blocks;
+}
+.title_menue{
+   background:url(../image/header_logo.png)
+   
+
+}
+
+.text_image_title{
+  display:flex;  
+  width:50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_text{  
+  align-items:center;
+  display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+.access_image{
+    display: flex;
+    background-color: #fafafa;
+    justify-content: center;
+}
+.copyright{
+    font-size:18px;
+    background-color: #707070; 
+}
+#page-top {
+    display: block;
+    font-weight: bold;
+    padding: .7em;
+    text-align: center;
+    background: #fff; /*背景色*/
+    color: #666; /*文字色*/
+    transition: .3s;
+}
+/***マウスオーバー時***/
+#page-top:hover {
+    background: #666; /*背景色*/
+    color: #fff; /*文字色*/
+}
